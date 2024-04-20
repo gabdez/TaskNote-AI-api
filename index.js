@@ -1,11 +1,11 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 4000;
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
 app.listen(port, () => {
-    console.log(`Backend listening on port ${port}`)
+    console.log(`TaskNote.ai API listening on port ${port}`)
 })
