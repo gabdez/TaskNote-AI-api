@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
+app.get('/notes', (req, res) => {
+    res.send('getNotes')
+})
+
 app.listen(port, () => {
     console.log(`TaskNote.ai API listening on port ${port}`)
 })
