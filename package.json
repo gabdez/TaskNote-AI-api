@@ -4,7 +4,7 @@
   "description": "Backend fOR MY SASS",
   "main": "index.js",
   "scripts": {
-    "start": "node --env-file .env index.js"
+    "start": "node index.js"
   },
   "author": "gabdez",
   "license": "ISC",
