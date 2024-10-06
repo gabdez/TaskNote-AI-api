@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/notes', (req, res) => {
-    res.send('getNotes')
+    res.send(`TaskNote.ai API listening on port ${port}`);
 })
 
 app.listen(port, () => {
