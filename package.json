@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "Backend fOR MY SASS",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "author": "gabdez",
   "license": "ISC",
   "dependencies": {
+    "@fastify/mongodb": "^8.0.0",
+    "dotenv": "^16.4.5",
+    "env-schema": "^5.2.1",
     "express": "^4.19.2",
-    "mongoose": "^8.3.2"
+    "fastify": "^4.26.2",
+    "fluent-json-schema": "^4.2.1",
+    "mongoose": "^8.3.2",
+    "pino": "^8.20.0"
   }
 }
